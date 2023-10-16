@@ -1,4 +1,4 @@
-FROM ruby:2.7.1-alpine
+FROM ruby:3.2.2-alpine
 
 ARG WORKDIR
 ARG RUNTIME_PACKAGES="nodejs tzdata postgresql-dev postgresql git"
